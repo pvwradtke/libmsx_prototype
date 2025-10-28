@@ -1,0 +1,499 @@
+ASxxxx Linker V03.00/V05.40 + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           GETIFF
+     00000000  l__BANK1                        
+     00000000  l__BANK10                       
+     00000000  l__BANK11                       
+     00000000  l__BANK12                       
+     00000000  l__BANK13                       
+     00000000  l__BANK14                       
+     00000000  l__BANK15                       
+     00000000  l__BANK16                       
+     00000000  l__BANK17                       
+     00000000  l__BANK18                       
+     00000000  l__BANK19                       
+     00000000  l__BANK2                        
+     00000000  l__BANK20                       
+     00000000  l__BANK21                       
+     00000000  l__BANK22                       
+     00000000  l__BANK23                       
+     00000000  l__BANK24                       
+     00000000  l__BANK25                       
+     00000000  l__BANK26                       
+     00000000  l__BANK27                       
+     00000000  l__BANK28                       
+     00000000  l__BANK29                       
+     00000000  l__BANK3                        
+     00000000  l__BANK30                       
+     00000000  l__BANK31                       
+     00000000  l__BANK32                       
+     00000000  l__BANK33                       
+     00000000  l__BANK34                       
+     00000000  l__BANK35                       
+     00000000  l__BANK36                       
+     00000000  l__BANK37                       
+     00000000  l__BANK38                       
+     00000000  l__BANK39                       
+     00000000  l__BANK4                        
+     00000000  l__BANK40                       
+     00000000  l__BANK41                       
+     00000000  l__BANK42                       
+     00000000  l__BANK43                       
+     00000000  l__BANK44                       
+     00000000  l__BANK45                       
+     00000000  l__BANK46                       
+     00000000  l__BANK47                       
+     00000000  l__BANK48                       
+     00000000  l__BANK49                       
+     00000000  l__BANK5                        
+     00000000  l__BANK50                       
+     00000000  l__BANK51                       
+     00000000  l__BANK52                       
+     00000000  l__BANK53                       
+ASxxxx Linker V03.00/V05.40 + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  l__BANK54                       
+     00000000  l__BANK55                       
+     00000000  l__BANK56                       
+     00000000  l__BANK57                       
+     00000000  l__BANK58                       
+     00000000  l__BANK59                       
+     00000000  l__BANK6                        
+     00000000  l__BANK60                       
+     00000000  l__BANK61                       
+     00000000  l__BANK62                       
+     00000000  l__BANK63                       
+     00000000  l__BANK7                        
+     00000000  l__BANK8                        
+     00000000  l__BANK9                        
+     00000000  l__BSEG                         
+     00000000  l__BSS                          
+     00000000  l__CABS                         
+     00000000  l__DABS                         
+     00000000  l__HEADER                       
+     00000000  l__HEAP                         
+     00000000  l__HOME                         
+     00000000  s__CABS                         
+     00000000  s__DABS                         
+     00000000  s__HEADER                       
+     00000000  s__HEADER0                      
+     00000001  l__GSFINAL                      
+     00000010  l__HEADER0                      
+     0000001C  l__INITIALIZED                  
+     0000001C  l__INITIALIZER                  
+     00000025  l__GSINIT                       
+     00000CAD  l__CODE                         
+     00000DFB  l__APPLCODE                     
+     00001421  l__DATA                         
+     00004010  s__CODE                         
+     00004CBD  s__APPLCODE                     
+     00004CBD  s__HOME                         
+     00005AB8  s__INITIALIZER                  
+     00005AD4  s__GSINIT                       
+     00005AF9  s__GSFINAL                      
+     0000C000  s__DATA                         
+     0000D421  s__INITIALIZED                  
+     0000D43D  s__BSEG                         
+     0000D43D  s__BSS                          
+     0000D43D  s__HEAP                         
+     00018000  s__BANK1                        
+     00028000  s__BANK2                        
+     00038000  s__BANK3                        
+     00048000  s__BANK4                        
+     00058000  s__BANK5                        
+     00068000  s__BANK6                        
+     00078000  s__BANK7                        
+ASxxxx Linker V03.00/V05.40 + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00088000  s__BANK8                        
+     00098000  s__BANK9                        
+     000A8000  s__BANK10                       
+     000B8000  s__BANK11                       
+     000C8000  s__BANK12                       
+     000D8000  s__BANK13                       
+     000E8000  s__BANK14                       
+     000F8000  s__BANK15                       
+     00108000  s__BANK16                       
+     00118000  s__BANK17                       
+     00128000  s__BANK18                       
+     00138000  s__BANK19                       
+     00148000  s__BANK20                       
+     00158000  s__BANK21                       
+     00168000  s__BANK22                       
+     00178000  s__BANK23                       
+     00188000  s__BANK24                       
+     00198000  s__BANK25                       
+     001A8000  s__BANK26                       
+     001B8000  s__BANK27                       
+     001C8000  s__BANK28                       
+     001D8000  s__BANK29                       
+     001E8000  s__BANK30                       
+     001F8000  s__BANK31                       
+     00208000  s__BANK32                       
+     00218000  s__BANK33                       
+     00228000  s__BANK34                       
+     00238000  s__BANK35                       
+     00248000  s__BANK36                       
+     00258000  s__BANK37                       
+     00268000  s__BANK38                       
+     00278000  s__BANK39                       
+     00288000  s__BANK40                       
+     00298000  s__BANK41                       
+     002A8000  s__BANK42                       
+     002B8000  s__BANK43                       
+     002C8000  s__BANK44                       
+     002D8000  s__BANK45                       
+     002E8000  s__BANK46                       
+     002F8000  s__BANK47                       
+     00308000  s__BANK48                       
+     00318000  s__BANK49                       
+     00328000  s__BANK50                       
+     00338000  s__BANK51                       
+     00348000  s__BANK52                       
+     00358000  s__BANK53                       
+     00368000  s__BANK54                       
+     00378000  s__BANK55                       
+     00388000  s__BANK56                       
+     00398000  s__BANK57                       
+     003A8000  s__BANK58                       
+ASxxxx Linker V03.00/V05.40 + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     003B8000  s__BANK59                       
+     003C8000  s__BANK60                       
+     003D8000  s__BANK61                       
+     003E8000  s__BANK62                       
+     003F8000  s__BANK63                       
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00004010    00000CAD =        3245. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00004010  init                               init_0
+     00004013  start                              start_megarom
+     00004031  _exit                              start_megarom
+     00004032  rom_init                           crt0
+     00004043  get_slot                           get_slot
+     00004071  _TTY_cls                           tty_cls
+     00004090  _vdp_write_palette                 vdp_write_palette
+     000040AB  save_slots                         save_slots
+     0000410A  _vdp_cmd_write                     vdp_cmd_write
+     0000413C  _libmsx___init_intr                interrupt
+     00004177  _set_interrupt_handler             interrupt
+     00004184  _set_vsync_handler                 interrupt
+     00004191  _await_vsync                       interrupt
+     000041A2  _TTY_set_color                     tty_set_color
+     000041B0  _vdp_get_status                    vdp_get_status
+     000041D9  _vdp_cmd_execute_HMMC              vdp_cmd_execute_HMMC
+     00004246  _vdp_write_control                 vdp_write_control
+     000043A4  _screen5                           screen5
+     00004421  _ZX0_decompress                    ZX0_decompress
+     00004460  _vdp_cmd_execute_HMMM              vdp_cmd_execute_HMMM
+     00004621  _vdp_set_image_table               vdp_set_image_table
+     000046AD  _mem_is_opened                     mem_rw
+     000046BC  _mem_open                          mem_rw
+     000046BF  _mem_close                         mem_rw
+     000046C5  _mem_ptr                           mem_rw
+     000046CA  _mem_is_in_free_area               mem_rw
+     00004701  _mem_write_chunk                   mem_rw
+     0000471A  _mem_read_chunk                    mem_rw
+     00004733  _mem_write_byte                    mem_rw
+     0000473F  _mem_read_byte                     mem_rw
+     0000474C  _mem_dup                           mem_rw
+     000047E1  _ZX0__decode                       ZX0__decode
+     00004865  _vdp_set_sprite_attribute_table    vdp_set_sprite_attribute_tab
+     00004905  _vdp_cmd_execute_HMMV              vdp_cmd_execute_HMMV
+     00004969  _TTY_set_border_color              tty_set_border_color
+     0000498A  ___sdcc_call_hl                    
+     0000498B  _vdp_set_screen_lines              vdp_set_screen_lines
+     000049A1  _TTY_set_text_color                tty_set_text_color
+     000049C7  _vdp_set_control                   vdp_set_control
+     000049D3  ___sdcc_call_iy                    
+     000049D5  _vdp_set_screen_mode               vdp_set_screen_mode
+     00004A5B  ___sdcc_enter_ix                   
+     00004A65  _TTY_locate                        tty_locate
+     00004A6F  _vmem_write_chunk_1                vmem_write_chunk
+     00004A87  _vmem_write_chunk_2                vmem_write_chunk
+     00004A9B  _vmem_write_chunk                  vmem_write_chunk
+     00004AA1  _vdp_set_yjk_mode                  vdp_set_yjk_mode
+     00004ABD  _vdp_cmd_execute                   vdp_cmd_execute
+     00004B27  _vdp_set_sprite_pattern_table      vdp_set_sprite_pattern_table
+     00004B9B  _vmem_set_write_address            vmem_set_write_address
+ASxxxx Linker V03.00/V05.40 + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00004010    00000CAD =        3245. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00004C15  _vmem_init_sprites                 vmem_init_sprites
+     00004C2E  _vdp_set_color                     vdp_set_color
+     00004C3A  _vmem_read_chunk_1                 vmem_read_chunk
+     00004C52  _vmem_read_chunk_2                 vmem_read_chunk
+     00004C66  _vmem_read_chunk                   vmem_read_chunk
+     00004C6C  _get_interrupt_state               get_interupt_state
+     00004C74  _TTY_check_pos                     tty_check_pos
+     00004CB0  GETIFF                             GETIFF
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER0                            00000000    00000010 =          16. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_APPLCODE                           00004CBD    00000DFB =        3579. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00004CBD  _main                              main
+     00004E39  _nave                              main
+     00005139  _vram1                             main
+     0000537C  _vram1_len                         main
+     0000537E  _vram2                             main
+     000057A1  _vram2_len                         main
+     000057A3  _vram3                             main
+     00005994  _vram3_len                         main
+     00005996  _vram_pal                          main
+     000059B6  _vram_pal_len                      main
+     000059B8  _map                               main
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZER                        00005AB8    0000001C =          28. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSINIT                             00005AD4    00000025 =          37. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00005AD4  gsinit                             start_megarom
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSFINAL                            00005AF9    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C000    00001421 =        5153. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C000  _decompress                        main
+     0000D400  _p                                 main
+     0000D402  _counter                           main
+     0000D404  _libmsx_initial_slots              save_slots
+     0000D412  _vsync_busy                        interrupt
+     0000D419  _ZX0__fnptr_duplicate              ZX0__decode
+     0000D41B  _ZX0__fnptr_transfer               ZX0__decode
+     0000D41D  _ZX0__fnptr_read_byte              ZX0__decode
+     0000D41F  _TTY_device                        tty
+ASxxxx Linker V03.00/V05.40 + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZED                        0000D421    0000001C =          28. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000D421  set_bank                           crt0
+     0000D421  set_bank_p2                        crt0
+     0000D42D  get_bank                           crt0
+     0000D42D  get_bank_p2                        crt0
+     0000D432  _vdp_cmd_write_CMD                 vdp_cmd_write
+     0000D437  _screen_mode                       vdp
+     0000D438  _sprite_mode                       vdp
+     0000D439  _vmem__fnptr_write_chunk           vmem_write_chunk
+     0000D43B  _vmem__fnptr_read_chunk            vmem_read_chunk
+ASxxxx Linker V03.00/V05.40 + sdld,  page 14.
+
+Files Linked                              [ module(s) ]
+
+/home/paulo/git/libmsx/lib/crt0_mod_rom_header/app_megarom_header.rel
+                                          [ app_megarom_header ]
+/home/paulo/git/libmsx/lib/crt0_mod_init/init_0.rel
+                                          [ init_0 ]
+/home/paulo/git/libmsx/lib/crt0_mod_start/start_megarom.rel
+                                          [ start_megarom ]
+/home/paulo/git/libmsx/lib/crt0_mod_rom_mapper/rom_ascii8.rel
+                                          [ crt0 ]
+/home/paulo/git/libmsx/lib/crt0_mod_libs/get_slot.rel
+                                          [ get_slot ]
+obj/main.rel                              [ main ]
+
+
+Libraries Linked                          [ object file ]
+
+/home/paulo/git/libmsx/lib/libmsx.lib     [ tty_cls.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_write_palette.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ save_slots.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_cmd_write.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ interrupt.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ tty_set_color.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_get_status.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_cmd_execute_HMMC.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_write_control.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ screen5.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ ZX0_decompress.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_cmd_execute_HMMM.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_set_image_table.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ mem_rw.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ ZX0__decode.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_set_sprite_attribute_table.r ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_cmd_execute_HMMV.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ tty_set_border_color.rel ]
+/usr/local/bin/../share/sdcc/lib/z80/z80.lib
+                                          [ __sdcc_call_hl.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_set_screen_lines.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ tty_set_text_color.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ tty.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_set_control.rel ]
+/usr/local/bin/../share/sdcc/lib/z80/z80.lib
+                                          [ __sdcc_call_iy.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_set_screen_mode.rel ]
+/usr/local/bin/../share/sdcc/lib/z80/z80.lib
+                                          [ crtenter.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ tty_locate.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vmem_write_chunk.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_set_yjk_mode.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_cmd_execute.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_set_sprite_pattern_table.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vmem_set_write_address.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vmem_init_sprites.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vdp_set_color.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ vmem_read_chunk.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ get_interupt_state.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ tty_check_pos.rel ]
+/home/paulo/git/libmsx/lib/libmsx.lib     [ GETIFF.rel ]
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 15.
+
+User Base Address Definitions
+
+_CODE = 0x4010
+_DATA = 0xc000
+_BANK1=0x18000
+_BANK2=0x28000
+_BANK3=0x38000
+_BANK4=0x48000
+_BANK5=0x58000
+_BANK6=0x68000
+_BANK7=0x78000
+_BANK8=0x88000
+_BANK9=0x98000
+_BANK10=0xa8000
+_BANK11=0xb8000
+_BANK12=0xc8000
+_BANK13=0xd8000
+_BANK14=0xe8000
+_BANK15=0xf8000
+_BANK16=0x108000
+_BANK17=0x118000
+_BANK18=0x128000
+_BANK19=0x138000
+_BANK20=0x148000
+_BANK21=0x158000
+_BANK22=0x168000
+_BANK23=0x178000
+_BANK24=0x188000
+_BANK25=0x198000
+_BANK26=0x1a8000
+_BANK27=0x1b8000
+_BANK28=0x1c8000
+_BANK29=0x1d8000
+_BANK30=0x1e8000
+_BANK31=0x1f8000
+_BANK32=0x208000
+_BANK33=0x218000
+_BANK34=0x228000
+_BANK35=0x238000
+_BANK36=0x248000
+_BANK37=0x258000
+_BANK38=0x268000
+_BANK39=0x278000
+_BANK40=0x288000
+_BANK41=0x298000
+_BANK42=0x2a8000
+_BANK43=0x2b8000
+_BANK44=0x2c8000
+_BANK45=0x2d8000
+_BANK46=0x2e8000
+_BANK47=0x2f8000
+_BANK48=0x308000
+_BANK49=0x318000
+_BANK50=0x328000
+_BANK51=0x338000
+_BANK52=0x348000
+_BANK53=0x358000
+_BANK54=0x368000
+_BANK55=0x378000
+_BANK56=0x388000
+_BANK57=0x398000
+_BANK58=0x3a8000
+_BANK59=0x3b8000
+_BANK60=0x3c8000
+_BANK61=0x3d8000
+_BANK62=0x3e8000
+_BANK63=0x3f8000
+
+

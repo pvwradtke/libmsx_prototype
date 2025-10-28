@@ -1,0 +1,80 @@
+-mjwx
+-i bin/prototype.ihx
+-b _CODE = 0x4010
+-b _DATA = 0xc000
+-b_BANK1=0x18000
+-b_BANK2=0x28000
+-b_BANK3=0x38000
+-b_BANK4=0x48000
+-b_BANK5=0x58000
+-b_BANK6=0x68000
+-b_BANK7=0x78000
+-b_BANK8=0x88000
+-b_BANK9=0x98000
+-b_BANK10=0xa8000
+-b_BANK11=0xb8000
+-b_BANK12=0xc8000
+-b_BANK13=0xd8000
+-b_BANK14=0xe8000
+-b_BANK15=0xf8000
+-b_BANK16=0x108000
+-b_BANK17=0x118000
+-b_BANK18=0x128000
+-b_BANK19=0x138000
+-b_BANK20=0x148000
+-b_BANK21=0x158000
+-b_BANK22=0x168000
+-b_BANK23=0x178000
+-b_BANK24=0x188000
+-b_BANK25=0x198000
+-b_BANK26=0x1a8000
+-b_BANK27=0x1b8000
+-b_BANK28=0x1c8000
+-b_BANK29=0x1d8000
+-b_BANK30=0x1e8000
+-b_BANK31=0x1f8000
+-b_BANK32=0x208000
+-b_BANK33=0x218000
+-b_BANK34=0x228000
+-b_BANK35=0x238000
+-b_BANK36=0x248000
+-b_BANK37=0x258000
+-b_BANK38=0x268000
+-b_BANK39=0x278000
+-b_BANK40=0x288000
+-b_BANK41=0x298000
+-b_BANK42=0x2a8000
+-b_BANK43=0x2b8000
+-b_BANK44=0x2c8000
+-b_BANK45=0x2d8000
+-b_BANK46=0x2e8000
+-b_BANK47=0x2f8000
+-b_BANK48=0x308000
+-b_BANK49=0x318000
+-b_BANK50=0x328000
+-b_BANK51=0x338000
+-b_BANK52=0x348000
+-b_BANK53=0x358000
+-b_BANK54=0x368000
+-b_BANK55=0x378000
+-b_BANK56=0x388000
+-b_BANK57=0x398000
+-b_BANK58=0x3a8000
+-b_BANK59=0x3b8000
+-b_BANK60=0x3c8000
+-b_BANK61=0x3d8000
+-b_BANK62=0x3e8000
+-b_BANK63=0x3f8000
+-k /home/paulo/git/libmsx/lib
+-k /usr/local/bin/../share/sdcc/lib/z80
+-k /usr/local/share/sdcc/lib/z80
+-l /home/paulo/git/libmsx/lib/libmsx.lib
+-l z80
+/home/paulo/git/libmsx/lib/crt0_mod_rom_header/app_megarom_header.rel
+/home/paulo/git/libmsx/lib/crt0_mod_init/init_0.rel
+/home/paulo/git/libmsx/lib/crt0_mod_start/start_megarom.rel
+/home/paulo/git/libmsx/lib/crt0_mod_rom_mapper/rom_ascii8.rel
+/home/paulo/git/libmsx/lib/crt0_mod_libs/get_slot.rel
+obj/main.rel
+
+-e

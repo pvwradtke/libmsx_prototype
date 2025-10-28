@@ -1,0 +1,185 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180 / ZX-Next / eZ80 / R800)                          Page 1
+Hexadecimal [32-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =   00002710 L
+    .__.ABS.                                                    =   00000000 G
+    .__.CPU.                                                    =   00000000 L
+    .__.H$L.                                                    =   00000000 L
+    _ATRBAS                                                     =   0000F928 
+    _ATRBYT                                                     =   0000F3F2 
+    _BAKCLR                                                     =   0000F3EA 
+    _BDRCLR                                                     =   0000F3EB 
+    _BREAKV                                                     =   0000F325 
+    _CALLF                                                      =   00000030 
+    _CALSLT                                                     =   0000001C 
+    _CGPBAS                                                     =   0000F924 
+    _CGPNT                                                      =   0000F91F 
+    _CGTBL                                                      =   00000004 
+    _CHGCPU                                                     =   00000180 
+    _CLIKSW                                                     =   0000F3DB 
+    _CLMLST                                                     =   0000F3B2 
+    _CLPRIM                                                     =   0000F38C 
+    _CNSDFG                                                     =   0000F3DE 
+    _CRTCNT                                                     =   0000F3B1 
+    _CSRX                                                       =   0000F3DD 
+    _CSRY                                                       =   0000F3DC 
+    _DISINT                                                     =   0000FFCF 
+    _DISKVE                                                     =   0000F323 
+    _DRVTBL                                                     =   0000FB21 
+    _ENAINT                                                     =   0000FFD4 
+    _ENASLT                                                     =   00000024 
+    _EXBRSA                                                     =   0000FAF8 
+    _EXPTBL                                                     =   0000FCC1 
+    _FCALL                                                      =   0000FFCA 
+    _FNKSTR                                                     =   0000F87F 
+    _FORCLR                                                     =   0000F3E9 
+    _FRCNEW                                                     =   0000F3F5 
+    _GETCPU                                                     =   00000183 
+    _GETPNT                                                     =   0000F3FA 
+    _GRPATR                                                     =   0000F3CD 
+    _GRPCGP                                                     =   0000F3CB 
+    _GRPCOL                                                     =   0000F3C9 
+    _GRPNAM                                                     =   0000F3C7 
+    _GRPPAT                                                     =   0000F3CF 
+    _GTSTCK                                                     =   000000D5 
+    _GTTRIG                                                     =   000000D8 
+    _HIMEM                                                      =   0000FC4A 
+    _HOKVLD                                                     =   0000FB20 
+    _H_KEYI                                                     =   0000FD9A 
+    _H_TIMI                                                     =   0000FD9F 
+    _INTERNATIONAL_ID_1                                         =   0000002B 
+    _INTERNATIONAL_ID_2                                         =   0000002C 
+    _JIFFY                                                      =   0000FC9E 
+    _LINL32                                                     =   0000F3AF 
+    _LINL40                                                     =   0000F3AE 
+    _LINLEN                                                     =   0000F3B0 
+    _MASTERS                                                    =   0000F348 
+    _MAXUPD                                                     =   0000F3EC 
+    _MINUPD                                                     =   0000F3EF 
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180 / ZX-Next / eZ80 / R800)                          Page 2
+Hexadecimal [32-Bits]
+
+Symbol Table
+
+    _MLTATR                                                     =   0000F3D7 
+    _MLTCGP                                                     =   0000F3D5 
+    _MLTCOL                                                     =   0000F3D3 
+    _MLTNAM                                                     =   0000F3D1 
+    _MLTPAT                                                     =   0000F3D9 
+    _MSX_SYSTEM_VERSION_CODE                                    =   0000002D 
+    _NAMBAS                                                     =   0000F922 
+    _PATBAS                                                     =   0000F926 
+    _PUTPNT                                                     =   0000F3F8 
+    _QUEUES                                                     =   0000F3F3 
+    _RAMAD0                                                     =   0000F341 
+    _RAMAD1                                                     =   0000F342 
+    _RAMAD2                                                     =   0000F343 
+    _RAMAD3                                                     =   0000F344 
+    _RDPRIM                                                     =   0000F380 
+    _RDSLT                                                      =   0000000C 
+    _REPCNT                                                     =   0000F3F7 
+    _RG0SAV                                                     =   0000F3DF 
+    _RG10SA                                                     =   0000FFE9 
+    _RG11SA                                                     =   0000FFEA 
+    _RG12SA                                                     =   0000FFEB 
+    _RG13SA                                                     =   0000FFEC 
+    _RG14SA                                                     =   0000FFED 
+    _RG15SA                                                     =   0000FFEE 
+    _RG16SA                                                     =   0000FFEF 
+    _RG17SA                                                     =   0000FFF0 
+    _RG18SA                                                     =   0000FFF1 
+    _RG19SA                                                     =   0000FFF2 
+    _RG1SAV                                                     =   0000F3E0 
+    _RG20SA                                                     =   0000FFF3 
+    _RG21SA                                                     =   0000FFF4 
+    _RG22SA                                                     =   0000FFF5 
+    _RG23SA                                                     =   0000FFF6 
+    _RG25SA                                                     =   0000FFFA 
+    _RG26SA                                                     =   0000FFFB 
+    _RG27SA                                                     =   0000FFFC 
+    _RG2SAV                                                     =   0000F3E1 
+    _RG3SAV                                                     =   0000F3E2 
+    _RG4SAV                                                     =   0000F3E3 
+    _RG5SAV                                                     =   0000F3E4 
+    _RG6SAV                                                     =   0000F3E5 
+    _RG7SAV                                                     =   0000F3E6 
+    _RG8SAV                                                     =   0000FFE7 
+    _RG9SAV                                                     =   0000FFE8 
+    _RSLREG                                                     =   00000138 
+    _SCNCNT                                                     =   0000F3F6 
+    _SLTATR                                                     =   0000FCC9 
+    _SLTTBL                                                     =   0000FCC5 
+    _SLTWRK                                                     =   0000FD09 
+    _STATFL                                                     =   0000F3E7 
+    _T32ATR                                                     =   0000F3C3 
+    _T32CGP                                                     =   0000F3C1 
+    _T32COL                                                     =   0000F3BF 
+    _T32NAM                                                     =   0000F3BD 
+    _T32PAT                                                     =   0000F3C5 
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180 / ZX-Next / eZ80 / R800)                          Page 3
+Hexadecimal [32-Bits]
+
+Symbol Table
+
+    _TRGFLG                                                     =   0000F3E8 
+    _TTY_cls                                                        ******** GX
+    _TTY_set_color                                                  ******** GX
+    _TXTATR                                                     =   0000F3B9 
+    _TXTCGP                                                     =   0000F3B7 
+    _TXTCOL                                                     =   0000F3B5 
+    _TXTNAM                                                     =   0000F3B3 
+    _TXTPAT                                                     =   0000F3BB 
+    _USRTAB                                                     =   0000F39A 
+    _WRPRIM                                                     =   0000F385 
+    _WRSLT                                                      =   00000014 
+    _WSLREG                                                     =   0000013B 
+    _ZX0_decompress                                                 ******** GX
+    _await_vsync                                                    ******** GX
+  1 _counter                                                        00001402 GR
+  1 _decompress                                                     00000000 GR
+  7 _main                                                           00000000 GR
+  7 _map                                                            00000CFB GR
+  7 _nave                                                           0000017C GR
+  1 _p                                                              00001400 GR
+    _primary_slot_select_port                                   =   000000A8 
+    _psg_port0                                                  =   000000A0 
+    _psg_port1                                                  =   000000A1 
+    _psg_port2                                                  =   000000A2 
+    _screen5                                                        ******** GX
+    _vdp_cmd_execute_HMMC                                           ******** GX
+    _vdp_cmd_execute_HMMM                                           ******** GX
+    _vdp_cmd_write                                                  ******** GX
+    _vdp_port0                                                  =   00000098 
+    _vdp_port1                                                  =   00000099 
+    _vdp_port2                                                  =   0000009A 
+    _vdp_port3                                                  =   0000009B 
+    _vdp_set_image_table                                            ******** GX
+    _vdp_write_palette                                              ******** GX
+  7 _vram1                                                          0000047C GR
+  7 _vram1_len                                                      000006BF GR
+  7 _vram2                                                          000006C1 GR
+  7 _vram2_len                                                      00000AE4 GR
+  7 _vram3                                                          00000AE6 GR
+  7 _vram3_len                                                      00000CD7 GR
+  7 _vram_pal                                                       00000CD9 GR
+  7 _vram_pal_len                                                   00000CF9 GR
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180 / ZX-Next / eZ80 / R800)                          Page 4
+Hexadecimal [32-Bits]
+
+Area Table
+
+   0 _CODE                                      size        0   flags    0
+   1 _DATA                                      size     1404   flags    0
+   2 _INITIALIZED                               size        0   flags    0
+   3 _DABS                                      size        0   flags    8
+   4 _HOME                                      size        0   flags    0
+   5 _GSINIT                                    size        0   flags    0
+   6 _GSFINAL                                   size        0   flags    0
+   7 _APPLCODE                                  size      DFB   flags    0
+   8 _INITIALIZER                               size        0   flags    0
+   9 _CABS                                      size        0   flags    8
+
